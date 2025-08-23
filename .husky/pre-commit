@@ -1,5 +1,6 @@
 #!/bin/sh
-. "$(dirname "$0")/_/husky.sh"
 
-npx eslint . --max-warnings=0 --max-errors=0
+echo "hello"
+npx lint-staged
+
 
