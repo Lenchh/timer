@@ -1,4 +1,5 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-npx eslint . --max-warnings=0
+npx eslint . --max-warnings=0 --max-errors=0
+
