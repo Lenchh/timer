@@ -11,14 +11,6 @@
     "build": "NODE_ENV=production webpack",
     "prepare": "husky install"
   },
-  "lint-staged": {
-  "*.js": "eslint --fix"
-},
-"husky": {    
-   "hooks": {      
-     "pre-commit": "npx eslint . "
-   } 
-},
   "devDependencies": {
     "@babel/core": "^7.20.7",
     "@babel/preset-env": "^7.20.2",
