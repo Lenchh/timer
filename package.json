@@ -12,8 +12,8 @@
     "prepare": "husky install"
   },
   "lint-staged": {
-  "*.js": "eslint --max-warnings=0"
-},
+    "*.js": "eslint --max-warnings=0"
+  },
   "devDependencies": {
     "@babel/core": "^7.20.7",
     "@babel/preset-env": "^7.20.2",
@@ -49,5 +49,8 @@
     "ES6+",
     "live reload",
     "Sass"
-  ]
+  ],
+  "dependencies": {
+    "moment": "^2.30.1"
+  }
 }
